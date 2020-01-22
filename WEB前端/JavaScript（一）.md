@@ -69,6 +69,15 @@ console.log(5 + 6);
 
 ### JS数据类型
 
+- 基本数据类型：string number bool undefined null
+- 引用数据类型：object、symbol。
+
+另外，object 包括：数组、函数、正则、日期等对象。NaN属于number类型。
+
+注意，数据类型里，没有数组。因为数组属于object（一旦说数组、函数、正则、日期、NaN是数据类型，直接0分）。
+
+
+
 JavaScript 从左向右计算表达式。不同的次序会产生不同的结果：
 
 ```javascript
