@@ -34,3 +34,10 @@
 #### JavaScript
 
 ![img](res/v2-fb1592c253a1227d4fe644dd6e83c035_b.jpg)
+
+#### Promise
+
+1. promise是什么，它为了解决什么问题？ 
+2. fetch是什么，为了解决什么问题？ 
+3. fetch和promise有什么关系？ 
+4. fetch和ajax有什么关系？
