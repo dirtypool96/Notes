@@ -18,7 +18,7 @@
 
 6. `git diff filename`:比较工作区和暂存区
 
-   ``git diff HEAD -- filename`:比较工作区和版本库的最新版本
+   `git diff HEAD -- filename`:比较工作区和版本库的最新版本
 
 7. `git checkout -- readme.txt`意思就是，把`readme.txt`文件在工作区的修改全部撤销（包括删除），这里有两种情况：
 

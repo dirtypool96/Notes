@@ -4,7 +4,7 @@
 
 ### 基础大纲
 
-![web学习路线](res/web学习路线-1579338339503.png)<img src="WEB前端/res/web-1579338332256.jpg" alt="web" style="zoom:80%;" />
+<img src="res/web学习路线.png" alt="web学习路线" style="zoom:80%;" /><img src="res/web-1579338332256.jpg" alt="web" style="zoom:80%;" />
 
 ### 细节大纲
 
