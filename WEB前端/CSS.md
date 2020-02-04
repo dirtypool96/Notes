@@ -35,7 +35,7 @@
 
 3. 内联样式
 
-   ```
+   ```html
    <p style="color: sienna; margin-left: 20px">
    This is a paragraph
    </p>

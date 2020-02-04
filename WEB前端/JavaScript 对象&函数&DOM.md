@@ -31,7 +31,7 @@ function findMax() {
 
 *HTML DOM* 模型被结构化为*对象树*：
 
-![DOM HTML 树](/res/ct_htmltree.gif)
+![DOM HTML 树](res/ct_htmltree.gif)
 
 #### 事件属性和分配事件
 
