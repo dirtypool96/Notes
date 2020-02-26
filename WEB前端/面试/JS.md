@@ -243,6 +243,7 @@ function max() {
 
 - class继承
 - prototype继承
+- 构造函数继承
 
 ## 如何捕获JS程序中的异常
 
