@@ -31,7 +31,7 @@ function isEqual(obj1, obj2) {
     return true
   }
   // 两个都是对象或数组，而且不相等
-  // 1. 先取出 obj1 和 obj2 的 keys ，比较个数
+  // 1. 先取出 obj1 和 obj12 的 keys ，比较个数
   const obj1Keys = Object.keys(obj1)
   const obj2Keys = Object.keys(obj2)
   if (obj1Keys.length !== obj2Keys.length) {
@@ -73,19 +73,19 @@ function isEqual(obj1, obj2) {
 
 ## 数组slice和splice区别
 
-1. slice 加key则去除key对应的值后，返回新数组
-2. splice 返回剪去的值为一个数组，原数组变成把后面的值替换剪去的
-
-注意：splice的key是从0开始的
+1. slice 加key则去除key对应的值后，返回新数组（）,`slice` 会提取原数组中索引从 `begin` 到 `end` 的所有元素（包含 `begin`，但不包含 `end`）
+2. splice 返回剪去的值为一个数组，原数组变成把后面的值替换剪去的（第几个开始，删除几个）
 
 ```js
 const arr = [10, 20, 30, 40, 50]
 
 // slice 纯函数
 const arr1 = arr.slice()
-const arr2 = arr.slice(1, 4) //[20, 30, 50]
+const arr2 = arr.slice(1, 4) //[20, 30, 40]
 const arr3 = arr.slice(2) //[30, 40, 50]
-const arr4 = arr.slice(-3) //[30, 40, 50]
+const arr4 = arr.slice(-2) //[40, 50]
+// slice(-2) 表示提取原数组中的倒数第二个元素到最后一个元素（包含最后一个元素）
+// slice(-2,-1) 表示抽取了原数组中的倒数第二个元素到最后一个元素（不包含最后一个元素，也就是只有倒数第二个元素）
 
 // splice 非纯函数
 const spliceRes = arr.splice(1, 2, 'a', 'b', 'c') 
@@ -106,8 +106,10 @@ const spliceRes2 = arr.splice(1, 0, 'a', 'b', 'c')
    return parseInt(num,index)
    //parseInt(10,0) 第二个参数为0 等同于10，返回10
    //parseInt(20,1) 第二个参数为1 不符合进制规则（2-36），返回NaN
-   //parseInt(30,2) 第二个参数为2 但是3>2，返回NaN
+   //parseInt(30,2) 第二个参数为2 但是3>2，除了 “0、1” 外，其它数字都不是有效二进制数字,返回NaN
  })
+
+parseInt('123', 5) // 将'123'看作 5 进制数，返回十进制数 38 => 1*5^2 + 2*5^1 + 3*5^0 = 38
 ```
 
 ## ajax请求get和post的区别
@@ -395,3 +397,34 @@ animate()
 </body>
 </html>
 ```
+
+## Map和Set
+
+### Map 和 Object 的区别
+
+- Map 可以以任意类型为 key
+- Map 是有序结构
+
+### Set 和 Array 的区别
+
+- Set 元素不能重复
+- Set 是无序结构，Array 是有序的
+
+### WeakMap 和 WeakSet
+
+- 弱引用（不管当key的引用的对象怎么样销毁，不影响weakmap和WeakSet的使用），防止内存泄露
+- WeakMap 只能用对象最为`key`，WeakSet 只能用对象做 `value`
+- 没有 forEach 和 size ，只能用 add delete has
+
+场景
+
+```js
+// WeakMap 场景
+const userInfo = { name: '1' }
+const cityInfo = { city: '2' }
+userInfo.city = cityInfo
+// 建立一种关联关系，而且两者保持独立，而且**不影响彼此的销毁逻辑**
+wMap.set(userInfo, cityInfo) 
+wMap.get(userInfo)
+```
+
