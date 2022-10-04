@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "00637b656dccf5f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "841b7d413485faf3",
+        "type": "leaf",
+        "dimension": 77.31629392971246,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "面试/全面版.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "aa0cf1e57459840f",
+        "type": "leaf",
+        "dimension": 22.683706070287545,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "面试/全面版.md"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec111f0d5b4755a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "a414081b9d34c75a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43c6c643b2c81dbf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5bcd0af1986d0edb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2dd48abf1613bd5b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf3e0f2136015cdc",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "4cdec45034e5785b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7072426d0837b0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eae421e53418ae5f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "面试/全面版.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a240c0e9d6b375cb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "面试/全面版.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a3ceb175812bf24f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "380039ec3055b32d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "面试/全面版.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "841b7d413485faf3",
+  "lastOpenFiles": [
+    "基础知识面试/html&css.md",
+    "res/web学习路线.png",
+    "res/web-1579338332256.jpg",
+    "res/v2-fb1592c253a1227d4fe644dd6e83c035_b.jpg",
+    "res/v2-233548bc10c707e7f95a86eda99764bb_b.jpg",
+    "res/v2-40d6727360ca923de918b85cb61dde52_b.jpg",
+    "Users/dirtypool/Desktop/Notes/基础知识面试/res/image-20220906001510950.png.md",
+    "基础知识面试/CSS.md",
+    "框架及打包面试/React.md",
+    "基础知识面试/JS.md"
+  ]
+}
