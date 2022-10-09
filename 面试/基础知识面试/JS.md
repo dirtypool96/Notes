@@ -112,7 +112,7 @@ const spliceRes2 = arr.splice(1, 0, 'a', 'b', 'c')
 parseInt('123', 5) // 将'123'看作 5 进制数，返回十进制数 38 => 1*5^2 + 2*5^1 + 3*5^0 = 38
 ```
 
-##7、 ajax请求get和post的区别
+## 7、 ajax请求get和post的区别
 
 - get 一般用于查询，post一般用于提交
 - get 参数拼接在url上，post放在请求体内（数据体积可更大）

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "面试/全面版.md",
+            "file": "面试/框架及打包面试/WebPack.md",
             "mode": "preview",
             "source": false
           }
@@ -23,7 +23,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "面试/全面版.md"
+            "file": "面试/框架及打包面试/WebPack.md"
           }
         }
       }
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "快速排序",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 295.5
   },
   "right": {
     "id": "4cdec45034e5785b",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/全面版.md",
+                "file": "面试/框架及打包面试/WebPack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/全面版.md",
+                "file": "面试/框架及打包面试/WebPack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/全面版.md"
+                "file": "面试/框架及打包面试/WebPack.md"
               }
             }
           }
@@ -150,15 +150,15 @@
   },
   "active": "841b7d413485faf3",
   "lastOpenFiles": [
-    "基础知识面试/html&css.md",
-    "res/web学习路线.png",
-    "res/web-1579338332256.jpg",
-    "res/v2-fb1592c253a1227d4fe644dd6e83c035_b.jpg",
-    "res/v2-233548bc10c707e7f95a86eda99764bb_b.jpg",
-    "res/v2-40d6727360ca923de918b85cb61dde52_b.jpg",
-    "Users/dirtypool/Desktop/Notes/基础知识面试/res/image-20220906001510950.png.md",
-    "基础知识面试/CSS.md",
-    "框架及打包面试/React.md",
-    "基础知识面试/JS.md"
+    "数据结构&算法/算法.md",
+    "数据结构&算法/数据结构.md",
+    "面试/全面版.md",
+    "面试/框架及打包面试/WebPack.md",
+    "面试/基础知识面试/JavaScript知识梳理/05.JS异步进阶.md",
+    "面试/基础知识面试/JavaScript知识梳理/05.JS基础-异步.md",
+    "面试/基础知识面试/JavaScript知识梳理/03.JS基础-原型和原型链.md",
+    "面试/基础知识面试/JavaScript知识梳理/04.JS基础-作用域、闭包和this.md",
+    "面试/基础知识面试/JavaScript知识梳理/04.Ques_相关题目.md",
+    "面试/基础知识面试/JS.md"
   ]
 }

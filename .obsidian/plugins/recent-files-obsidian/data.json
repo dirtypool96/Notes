@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "WebPack",
+      "path": "面试/框架及打包面试/WebPack.md"
+    },
+    {
+      "basename": "算法",
+      "path": "数据结构&算法/算法.md"
+    },
+    {
+      "basename": "数据结构",
+      "path": "数据结构&算法/数据结构.md"
+    },
+    {
       "basename": "全面版",
       "path": "面试/全面版.md"
+    },
+    {
+      "basename": "05.JS异步进阶",
+      "path": "面试/基础知识面试/JavaScript知识梳理/05.JS异步进阶.md"
+    },
+    {
+      "basename": "05.JS基础-异步",
+      "path": "面试/基础知识面试/JavaScript知识梳理/05.JS基础-异步.md"
+    },
+    {
+      "basename": "03.JS基础-原型和原型链",
+      "path": "面试/基础知识面试/JavaScript知识梳理/03.JS基础-原型和原型链.md"
+    },
+    {
+      "basename": "04.JS基础-作用域、闭包和this",
+      "path": "面试/基础知识面试/JavaScript知识梳理/04.JS基础-作用域、闭包和this.md"
+    },
+    {
+      "basename": "04.Ques_相关题目",
+      "path": "面试/基础知识面试/JavaScript知识梳理/04.Ques_相关题目.md"
+    },
+    {
+      "basename": "JS",
+      "path": "面试/基础知识面试/JS.md"
+    },
+    {
+      "basename": "02.JS基础-变量类型和计算",
+      "path": "面试/基础知识面试/JavaScript知识梳理/02.JS基础-变量类型和计算.md"
     },
     {
       "basename": "html&css",

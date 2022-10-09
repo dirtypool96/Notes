@@ -150,10 +150,6 @@ webpack-cli用于命令行webpack命令
    ]
    ```
 
-4. 效果：
-
-![image-20201020180556759](res/image-20201020180556759.png)
-
 #### 2.2.3 `CSS`的模块化
 
 例子：新增一个图片，只有`index`的图片受到`css`属性影响
@@ -206,4 +202,4 @@ webpack-cli用于命令行webpack命令
 
 4. 效果：只有`index.js`中的`css`起到了效果，`class`为`img`的没有生效
 
-    ![](../../.vuepress/public/image-20201020201830690.png)
+    ![](./res/image-20201020201830690.png)

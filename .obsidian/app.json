@@ -4,5 +4,7 @@
   "newFileLocation": "current",
   "readableLineLength": true,
   "useMarkdownLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./res"
 }
