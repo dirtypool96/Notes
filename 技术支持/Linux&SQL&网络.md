@@ -35,7 +35,7 @@ INSERT INTO Persons (LastName, Address) VALUES ('Wilson', 'Champs-Elysees');
 
 插入成功后数据如下：
 
-![img](https://img-blog.csdnimg.cn/img_convert/c70c35678f4b4c7129746721bc53110d.png)
+![img](./res/fb1f47e98797417265f2cfa9f35b1fe1.png)
 
 ### 1.1.3 查询 SELECT
 
@@ -46,9 +46,9 @@ SELECT * FROM Persons;
 SELECT LastName,FirstName FROM Persons; 
 ```
 
-![img](https://img-blog.csdnimg.cn/img_convert/a3e9d10889006f0f2e568c6e67617482.png)
+![img](./res/a3e9d10889006f0f2e568c6e67617482.png)
 
-![img](https://img-blog.csdnimg.cn/img_convert/5d90d9ce257cd8421dfdd138ab68f209.png)
+![img](./res/5d90d9ce257cd8421dfdd138ab68f209.png)
 
 #### 1.1.3.2 DISTINCT – 去除重复值
 
@@ -99,7 +99,7 @@ SELECT * FROM Persons ORDER BY LASTNAME DESC;
 UPDATE Persons SET ID_P = 6,city= 'London' WHERE LastName = 'Wilson';  
 ```
 
-![img](https://img-blog.csdnimg.cn/img_convert/7c8e608a9e7362f1a154f587d52cd11b.png)
+![img](./res/7c8e608a9e7362f1a154f587d52cd11b.png)
 
 ### 1.1.5 DELETE – 删除数据
 
@@ -269,7 +269,7 @@ where city='Beijing'
 group by lastname; 
 ```
 
-![img](https://img-blog.csdnimg.cn/img_convert/fb1f47e98797417265f2cfa9f35b1fe1.png)
+![img](./res/fb1f47e98797417265f2cfa9f35b1fe1-1719500050973-12.png)
 
 ### 1.3.6 HAVING – 句尾连接
 
@@ -299,7 +299,7 @@ select round(列名,精度) from 表名;
 select sysdate from 表名;
 ```
 
-
+# 二、网络基础
 
 # 三、Linux基本命令
 
