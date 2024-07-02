@@ -299,7 +299,5 @@ select round(列名,精度) from 表名;
 select sysdate from 表名;
 ```
 
-# 二、网络基础
-
-# 三、Linux基本命令
+# 
 
